@@ -50,15 +50,34 @@ body{
 
 /* Profile Details */
 .profile-details{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.profile-flex{
     margin: 85px 20px;
 }
 .profile-title{
     font-size: 1.5rem;
     padding-bottom: 3px;
+    flex-direction: column;
 }
 .profile-id{
     font-size: .9rem;
     font-weight: 300;
     color: rgb(105,120,131);
-
+    flex-direction: column;
+}
+.profile-button{
+    font-size: 1rem;
+    font-weight: 100;
+    justify-content: flex-end; 
+    height: fit-content;
+    padding: 10px 20px;
+    border: none;
+    background-color: #0F1418;
+    color: white;
+    cursor: pointer;
+    border-radius: 16px;
 }
